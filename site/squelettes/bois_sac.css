@@ -1,0 +1,58 @@
+/* --------------------------------------------------------- */
+/* Feuille de style Bois Sac  								*/
+/* --------------------------------------------------------- */
+body { 
+background-image: url("../IMG/bois_sac/fond.jpg");
+background-repeat: no-repeat;
+background-position: top center;
+}
+/*** entete ***/
+#entete #logo{
+	background-image:url("../IMG/bois_sac/logo_cadre.png");
+	background-repeat: no-repeat;
+	width: 166px;
+	height: 107px;
+	padding-top: 63px;
+	padding-left: 44px;
+	z-index:1000;
+	position:absolute;
+}
+#entete #nav{
+	background-image:url("../IMG/bois_sac/fond_menu.jpg");
+	background-repeat: repeat-x;
+	width: 752px;
+	height: 46px;
+	margin-top: 77px;
+}
+#entete #nav ul{
+	margin-left: 250px;
+	margin-top:10px;
+	float: left;
+}
+#entete #nav ul li{
+	display: inline;
+	float: left;
+	margin:5px 5px 0px 5px;
+	
+}
+#entete #nav ul li.trai{
+	background-image:url("../IMG/bois_sac/trai_menu.jpg");
+	background-repeat: repeat-x;
+	width: 3px;
+	height: 29px;
+	margin:0px;
+	
+}
+#entete #nav ul li a{
+	font-weight: bold;
+	font-size: 1em;
+	color: #000000;	
+}
+/*** corps ***/
+#corps{
+	background-image:url("../IMG/bois_sac/fond_corps.jpg");
+	background-repeat: repeat-x;
+	background-color: #BFBBB2;
+	width: 100%;
+	float: left;
+}
