@@ -20,7 +20,6 @@ background-position: top center;
 #entete #nav{
 	background-image:url("../IMG/bois_sac/fond_menu.jpg");
 	background-repeat: repeat-x;
-	width: 752px;
 	height: 46px;
 	margin-top: 77px;
 }
@@ -48,6 +47,14 @@ background-position: top center;
 	font-size: 1em;
 	color: #000000;	
 }
+/*** banner ***/
+#banner {
+	margin-bottom:3px;
+	width: 100%;
+	text-align: center;
+}
+
+
 /*** corps ***/
 #corps{
 	background-image:url("../IMG/bois_sac/fond_corps.jpg");
@@ -55,4 +62,36 @@ background-position: top center;
 	background-color: #BFBBB2;
 	width: 100%;
 	float: left;
+}
+.page_sommaire #page #corps #conteneur #contenu #suivre {
+	float: right;
+	padding:0 10px 0 0;
+	margin: 0;
+}
+.page_sommaire #page #corps #conteneur #contenu #suivre ul li{
+	display: inline;
+	float: left;
+	margin-left:2px;
+	margin-right:2px;
+}
+.page_sommaire #page #corps #contenu div.introduction img{
+	float: left;
+	margin-right:4px;
+	margin-bottom:4px;
+}
+
+.page_sommaire #page #corps #contenu div.menu ul{
+	border:0;
+}
+
+.page_sommaire #page #corps #contenu div.menu ul li{
+	border:0;
+}
+
+/*** navigation ***/
+#navigation img {
+	border-top :2px solid #2A0000;
+	border-bottom :2px solid #2A0000;
+	border-right :6px solid #2A0000;
+	border-left :6px solid #2A0000;
 }
