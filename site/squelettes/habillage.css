@@ -182,7 +182,7 @@ ul ul ul ul ul .forum-chapo { background: #FFF; }
 
 /* Rubriques */
 .rubriques ul { border: 0; }
-.rubriques ul li { background: #EEE; border: 0; }
+.rubriques ul li {border: 0; }
 
 .formulaire_recherche { margin-bottom: 2em; } /*Cf.: spip_formulaires.css*/
 

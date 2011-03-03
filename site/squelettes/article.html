@@ -12,7 +12,10 @@
 
 	[(#REM) Entete de la page + titre du site ]
 	<INCLURE{fond=inc-entete}>
-
+<div id="banner">
+	<img src="IMG/bois_sac/banner.png" alt="banner" title="banner">
+</div>
+<div id="corps">
 	[(#REM) Contenu principal : contenu de l'article ]
     <div class="hfeed" id="conteneur">
     <div class="hentry" id="contenu">
@@ -75,13 +78,12 @@
         [(#REM) Menu de navigation par rubriques ]
         <INCLURE{fond=inc-rubriques}{id_rubrique}>
 	
-		#FORMULAIRE_RECHERCHE
 
     </div><!--#navigation-->
     
     [(#REM) Menu de navigation laterale ]
     <div id="extra">
-
+		#FORMULAIRE_RECHERCHE
         [(#REM) Articles dans la meme rubrique ]
         <B_articles_rubrique>
         <div class="menu">
@@ -98,7 +100,7 @@
         #MODELE{article_mots}
         
     </div><!--#extra-->
-
+<div><!--#corps-->
 	[(#REM) Pied de page ]
 	<INCLURE{fond=inc-pied}{skel=#SQUELETTE}>
 

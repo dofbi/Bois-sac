@@ -1,10 +1,12 @@
 /* --------------------------------------------------------- */
 /* Feuille de style Bois Sac  								*/
 /* --------------------------------------------------------- */
-body { 
-background-image: url("../IMG/bois_sac/fond.jpg");
-background-repeat: no-repeat;
-background-position: top center;
+body {
+	background-image: url(../IMG/bois_sac/fond.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #3c1202;
+	background-attachment: fixed;
 }
 /*** entete ***/
 #entete #logo{
@@ -49,9 +51,11 @@ background-position: top center;
 }
 /*** banner ***/
 #banner {
-	margin-bottom:3px;
 	width: 100%;
 	text-align: center;
+	margin : 0 0 3px 0;
+	padding-top:5px;
+	clear:both;
 }
 
 
@@ -94,4 +98,37 @@ background-position: top center;
 	border-bottom :2px solid #2A0000;
 	border-right :6px solid #2A0000;
 	border-left :6px solid #2A0000;
+}
+#navigation div.menu {
+	background-image: url(../IMG/bois_sac/menu_fond_01.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width:35%;
+	position: absolute;
+	margin-top: -47px;
+}
+#navigation div.menu h2{
+	padding-left:10px;
+	padding-top:15px;
+	color: #005A28;
+	background-image: url(../IMG/bois_sac/trai.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+#navigation div.menu ul{
+	background-image: url(../IMG/bois_sac/menu_fond_02.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	min-height:150px;
+	padding-left:10px;
+	padding-top:5px;
+}
+#navigation div.menu ul li{
+	background-image: url(../IMG/bois_sac/trai.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+#navigation div.menu ul li a{
+	color:#000;
 }
